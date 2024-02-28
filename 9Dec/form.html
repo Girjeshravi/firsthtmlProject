@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" conten t="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- placeholder is used to signifyn user to enter the detail in which way and in cicking it will dissappear -->
+        <!-- giving a name to any tag is just to understand to backend member that what is this data -->
+        <!-- required attribute is used that this mandatory to fill -->
+        <!-- here we use for just to get unique identifiers -->
+        <!-- <p>Full Name:</p><input id="user_name" name="user_name" placeholder="Girjesh Patidar" type="text" required><br>  -->
+        <label for="user_name">FULL NAME:</label>
+        <!-- for is used for that on clicking on html page to any entry name it will direct send us to enter entry -->
+        <!-- here for is used as a unique identifier user_name will store the id value -->
+        <input id="user_name" name="user_name" placeholder="Girjesh Patidar" type="text" required><br> 
+        <label for="user_number">Number:</label><input id="user_number" name="user_mobile" placeholder="9993185457" type="number" required><br>
+        <input name="password" type="password"><br>
+        <input name="user_email" placeholder="gwc.ravi52@gmail.com" type="email"><br>
+        <input name="dob" type="date"><br>
+        <input type="file"><br>
+        <input type="range"><br>
+        <button type="submit">Submit</button>
+        <input type="submit">
+        <input type="radio"><br>
+        <input type="checkbox"><br> 
+        <!-- the most important concept is here that the data name to backend will go uniques if there are data of same name,it will choose only one -->
+        <!-- here the problem is we are selecting one option but not giving a name to that data so we will use a syntax name value -->
+        <span>MALE</span>
+        <input name="gender" value="male" type="radio">
+        <span>FEMALE</span>
+        <input name="gender" value="female" type="radio">
+        <span>OTHER</span>
+        <input name="gender" value="other" type="radio">
+        <!-- here for example if we selcet male then gender will get the value of male -->
+        <br>
+        <div>
+            <input type="checkbox" value="blue">Blue
+            <input type="checkbox" value="green">Green
+            <input type="checkbox" value="pink">Pink
+            <input type="checkbox" value="red">Red
+        </div>
+        FAVOURITE CARS:
+        <!-- if we want to select multiple cars then use multiple -->
+        <select name="favourite_car" multiple>
+            <option value="bmw">BMW</option>
+            <option value="audi">  AUDI</option>
+            <option value="swift">SWIFT DEZIRE</option>
+        </select><br>
+        <br>
+        <!-- this textarea is used to get multiple lines of text -->
+        <textarea rows="4" col="3"></textarea><br>
+        <button type="reset">Resettt</button>
+    </form>
+</body>
+</html>
