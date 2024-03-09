@@ -1,0 +1,88 @@
+/* *{
+    background-color: blue;
+} */
+
+
+/* COLOR PROPERTIES */
+#eg1{
+    color:rgb(100,4,0)
+}
+#eg1{
+    color:rgba(100,50,30,0.1)
+}
+#eg1{
+    color:#3f2cdd;
+    text-align: left; 
+}
+#eg1{
+    text-decoration: red overline;
+}
+#eg2{
+    text-transform: uppercase;
+    
+}
+#eg5{
+    line-height:100px;
+}
+#eg6{
+    text-shadow:0px 0px 10px blue;
+}
+
+/*  FONT PRPERTIES */
+/* 1)built in fonts */
+#eg8{
+    font-family:Arial,sans-serif;
+}
+#eg9{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* 2)import fonts */
+/* its process is on notes */
+
+/* font style */
+#eg9{
+    font-style:italic;
+}
+/* font size */
+#eg10{
+    font-size: 100px;
+}
+/* font weight */
+#eg10{
+    font-weight: 600px;
+}
+
+/* BOX MODEL PROPERTIES */
+#eg11{
+    background-color: blue;
+    /* absolute width -- means width will not be change on changing page size */
+    /* cm */
+    /* width:5cm; */
+    /* px */
+    /* width: 5px; */
+    /* percentage -- will use in respect to the parent width(on decreasing width of page it also change)*/
+    width:50%;
+}
+
+#eg16{
+    width:500px;
+    height: 500px;
+    background-color: red;   
+}
+
+#eg17{
+    /* this below width means its with with respect to parent -- and here parent is -eg16*/
+    width:50%;
+    height:100px;
+    background-color: yellow;
+}
+#eg18{
+    width:50%; 
+    height:200px;
+    background-color: green;
+}
+#eg19{
+    width:50vw;
+    height:50vh;
+    background-color: pink;
+}

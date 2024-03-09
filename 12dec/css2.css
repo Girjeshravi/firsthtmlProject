@@ -1,0 +1,16 @@
+/* COMBINATOR SELECTOR */
+/* 1) childe selector */
+#parent>p{
+    background-color: blue;
+    color: white;
+}
+#parent>div>h2{
+    background-color: aquamarine;
+}
+/*2) descendent selector */
+#parent>div p{
+    background-color: green;
+}
+
+
+

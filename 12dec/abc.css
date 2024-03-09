@@ -1,0 +1,28 @@
+/* universal selector */
+*{
+    color: pink;
+}
+
+/* TYPE SELECTOR */
+div{
+    color:blue;
+}
+h3{
+    border: solid green;
+    background-color: yellow;
+}
+
+/* ID SELECTORS */
+#eg1{
+    background-color:black;
+    color: white ;
+}
+
+/* CLASS SELECTOR */
+.chutiya{
+    background-color: rgb(248, 18, 18);
+    color: sienna;
+}
+
+/* COMBINATOR SELECTOR */
+/* on css2.css */
