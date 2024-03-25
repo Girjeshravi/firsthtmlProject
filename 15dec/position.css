@@ -1,0 +1,59 @@
+#box1{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    border:2px solid black;
+}
+#box2{
+    width:200px;
+    height:200px;
+    background-color: pink;
+    border:2px solid black;
+    /* we can use here margin:left but it may effect the position of another elements so to avoid that we will use position:relative concept which will change the position of element relative to itself and also not effect position of another element. */
+    position:relative;
+    top:20px;
+    left: 20px;
+}
+#box3{
+    width:200px;
+    height:200px;
+    background-color:green;
+    border:2px solid black;
+}
+
+#whatsapp_icon1{
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    background-color: #3fc250;
+    color:white;
+    font-weight: 900;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#whatsapp_icon{
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    background-color: #3fc250;
+    color:white;
+    font-weight: 900;
+    padding: 20px;
+    box-sizing: border-box;
+    /* we have to give the position after fixingthen we can see the element */
+    position:fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#eg0{
+    width:55px;
+    height:55px;
+    /* we have to give the position after fixingthen we can see the element */
+    position:fixed;
+    top: 0px;
+    left: 50px;
+    position :sticky;
+    top :100px;
+}

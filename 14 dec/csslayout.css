@@ -1,0 +1,42 @@
+#eg6{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    margin:20px;
+    /* coverting block element to inline elements */
+    /* display: inline; */
+
+    /* combination of block+inline elements (inline-block) */
+    display:inline-block;
+
+    /* display :none */
+    /* it will hide the element from the layout and removes it from the flow of the document.it makes the element invisible. means dont exist on page but present on html*/
+    display:none
+}
+#eg7{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    margin:20px;
+    display: inline;
+    display:inline-block
+}
+
+#eg8{
+    width:200px;
+    height:200px;
+    background-color: red;
+    margin:20px;
+    /* coverting inline element to block elements */
+    display: block; 
+
+    display:inline-block
+}
+#eg9{
+    width:200px;
+    height:200px;
+    background-color: red;
+    margin:20px;
+
+    display:inline-block
+}

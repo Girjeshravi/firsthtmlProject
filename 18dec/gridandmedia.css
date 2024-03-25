@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+/* #grid1{
+    border:1px solid black;
+    width:500px;
+    height:500px;
+    display:grid;
+    /* absolute value */
+    /* grid-template-columns: 50px 100px 100px 100px 100px ; */
+    /* percentage */
+    /* grid-template-columns: 10% 10% 50% 20% 10% ; */
+    /* fraction */
+    /* grid-template-columns: 1fr 2fr 5fr; */
+    /* repeat function */
+    /* grid-template-columns:repeat(10,30px) ; */
+    /* auto */
+    /* here auto will take the min space to column where its content can be fixed thats it */
+    /* grid-template-columns: 100px auto 200px; */
+    /* grid-template-columns: auto auto auto;     */
+    /* mixed */
+    /* grid-template-columns: 100px 20% 1fr repeat(5,20px) auto; */
+    /* grid-template-columns: repeat(5,100px); */
+    /* absolute */
+    /* grid-template-rows: 100px 100px 100px 100px; */
+    /* percentage */
+    /* grid-template-rows: 10% 10% 20% 60%; */
+    /* fraction */
+    /* grid-template-rows: 1fr 2fr 3fr 3fr; */
+    /* repeat function */
+    /* grid-template-rows: repeat(5,120px); */
+/* } */
+/* .red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: #ffff00;
+} */
+
+ /* 
+
+
+/* we will use grid row start,end concept */
+#grid2{
+    border:1px solid black;
+    width:500px;
+    height:500px;
+    display:grid;
+}
+.red1{
+    background-color: red;
+}
+.blue1{
+    background-color: blue;
+}
+.green1{
+    background-color: green;
+}
+.yellow1{
+    background-color: yellow;
+}
+/* #box1{ */
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+    /* this below line is just the short form of above two lines */
+    /* grid-column: 1/2; */
+
+    /* grid-row-start: 1;
+    grid-row-end: 6; */
+    /* this below line is just the short form of above two lines */
+    /* grid-row: 1/6; */
+/* } */
+/* #box2{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#box3{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+#box4{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+} */
+
+
+
+
+/*  we will creat the same sidebas header ,main,footer templelate using grid-tempelate-area*/
+#grid2{
+    border:1px solid black;
+    width:500px;
+    height:500px;
+    display:grid;
+    grid-template-areas: 
+    "s h h h h"
+    "s m m m f"
+    "s m m m f"
+    "s m m m f"
+    "s m m m f";
+}
+#box1{
+    grid-area: s;
+}
+#box2{
+    grid-area: h;
+} 
+#box3{
+    grid-area: m;
+}
+#box4{
+    grid-area: f;
+}
+
+

@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.box1{
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    background-color: pink;
+}
+.box2{
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    background-color: red;
+}
+.box3{
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    background-color: green;
+}
+.box4{
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    background-color: pink;
+}
+.parent1{
+
+    display: flex;
+    justify-content: center;
+}
+.parent2{
+    display: flex;
+    justify-content: space-between;
+}
+.parent3{
+    display:flex;
+    justify-content: space-around;
+}
+.parent4{
+    display:flex;
+    justify-content: space-evenly;
+}

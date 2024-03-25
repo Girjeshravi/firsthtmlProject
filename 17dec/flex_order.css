@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.box1{
+    flex:1;
+    order:2;
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    background-color: pink;
+}
+.box2{
+    flex:2;
+    order:3;
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    background-color:red;
+}
+.box3{
+    order :4;
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    background-color: green;
+}
+.box4{
+    order :1;
+    width:200px;
+    height:200px;
+    border:2px solid blue;
+    background-color: purple;
+}
+.parent1{
+    display:flex;
+    justify-content: center;
+    border:2px solid black;
+}

@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+#eg1{
+    width:300px;
+    height:300px;
+    background-color: blue;
+    /* one value */
+    /* margin:50px; */
+    /* two values */
+    /* margin :30px 20px; */
+    /* three values */
+    /* margin :top left & right */
+    /* margin:10px 20px 50px ; */
+
+    /* four values */
+    /* margin :top right bottom left  */
+    /* margin:100px 200px 300px 400px; */
+
+    /* margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 120px;
+    margin-bottom: 100px; */
+
+    /* margin inline means margin in the x axis */
+    margin-inline:50px;
+}
+
+/* padding -- it is the distance between the border and the text */
+#eg2{
+    width:300px;
+    height:300px;
+    background-color: pink;
+    /* one value */
+    /* padding: 30px; */
+
+    /* two value */
+    /* padding-yaxis xaxis */
+    /* padding:100px 50px; */
+
+    /* third */
+    /* top left,right bootom */
+    /* padding: 10px 20px 40px; */
+
+    /* four */
+    /* top,left,right,bottom */
+    /* padding:10px 20px 30px 40px; */
+
+    /* padding-inlinr */
+    padding: 40px 40px 40px 40px;
+
+    /* box sizing */
+    /* will restrict the increase in the size of box */
+    box-sizing: border-box;
+
+}
+#eg4{
+    /* by default box-sizing is content box */
+    width :300px;
+    height:300px;
+    background-color: pink;
+    padding:30px;
+}
+
+
+/* border properties */
+#eg5{
+    /* by default box-sizing is content box */
+    width :300px;
+    height:300px;
+    background-color: pink;
+    padding:30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
+    border-radius: 10px;
+}
+
+/* background properties */
+#eg7{
+    width:400px;
+    height: 400px;
+    background-image: url("https://media.istockphoto.com/id/1432690812/photo/old-wooden-dock-at-the-lake-sunset-shot.webp?b=1&s=170667a&w=0&k=20&c=wu0hgDxT9wQ8fQMfR74gN_xb4AnFB795ceJ0QsyknH0=");
+    background-size: 100px 200px;
+    /* background-repeat default value is repeat towards and element  */
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-size: cover ; */
+    background-size: contain ;
+
+} 
+
