@@ -143,3 +143,25 @@ var girjesh;
 console.log(girjesh);//undefined
 girjesh="patidar";
 console.log(girjesh);//patidar
+
+
+
+// SCOPE - WHo can access our variable
+let a=100;  // here let is helping us to describe the scope of a
+// local scope .... if avariable is declared with let and inside curly brackets the it is local variable
+// global scope ....if variable is declared with simple(a=100) and it is written anywhere then it is access from anywhere so it is global variable
+ 
+
+let c=10;
+let b=20;
+let sum=a+b;
+console.log(sum);
+console.log("sum of",a,"and", b,"is",sum); //using double qote
+console.log(`sum of ${a} and ${b} is ${sum}`); // using single qote
+
+// to write multiple line string we have to use back clote 
+let str = `sjncbsavhjbe
+vekjvneiuonv
+vckejnveipuvn
+venvipenv`;
+console.log(str);

@@ -47,11 +47,15 @@ console.log(a);
 a=true;
 console.log(a);
 
+// -------------------------------------------------------
 // data types
 // in javascript we just declare a variable not a datatype
 // 1.STRING
 let name="girjesh patidar";
 console.log(typeof name);
+//a="z"//string
+//a='z' //string
+// a=`hello`//back tick string
 
 //2. number
 let age=25.3676;
@@ -94,6 +98,7 @@ console.log(currentDate);
 // it initializes the variable with the current date and time
 
 //9. Big int
+
 let lgNumber=1234567890123456234567890123456789012345678n;
 // n is used to create a number to bigint literal
 
@@ -226,6 +231,10 @@ console.log(dyname);
 for(let i=0;i<10;i++){
     console.log(i);
 }
+//5/2=2.5 in javaScript
+//5/2=2 in java
+//parseInt(5/2)=2 in javascript
+
 //2.while loop
 let aa=5;
 while(aa>=0){
